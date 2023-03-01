@@ -1,0 +1,51 @@
+@media (width: 1920px) {
+	.projects_container {
+		width: calc(1920px - 400px);
+		justify-content: space-between;
+	}
+
+	.profile_btn {
+		padding: 15px 30px;
+	}
+
+	.bg-text {
+		font-size: 180px;
+	}
+
+	.projects_info h1 {
+		font-size: 36px;
+		padding-top: 4px;
+		padding-left: 11px;
+	}
+
+	.projects_info {
+		width: 885px;
+	}
+
+	.projects_info p {
+		width: 520px;
+		font-size: 17px;
+		margin-top: -23px;
+	}
+
+	.posts {
+		width: calc(100% - 390px);
+	}
+
+	.posts_item {
+		width: 440px;
+		margin: 25px 25px 60px;
+	}
+
+	.posts_more {
+		width: calc(100% - 215px);
+		margin-bottom: 80px;
+	}
+
+	.nodes_background div {
+		font-size: 145px;
+		font-weight: bold;
+		display: flex;
+		letter-spacing: -10px;
+	}
+}
