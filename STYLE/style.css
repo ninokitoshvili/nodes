@@ -11,14 +11,14 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: mtavruli;
+	/* font-family: mtavruli; */
 }
 
 p {
 	font-family: excelsion;
 }
 a {
-	color: black;
+	color: #737373;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -59,26 +59,10 @@ header {
 
 /* headder logo side */
 
-.logo_container h1 {
-	background-color: #fff;
-	overflow: hidden;
-	display: inline-block;
-	font-weight: bold;
-	color: transparent;
-	font-size: 70px;
-	background-repeat: no-repeat;
-}
-
-.logo_container h1 span {
-	background-image: url("../ELEMENTS/1.png"), url("../ELEMENTS/2.png"),
-		url("../ELEMENTS/5.png"), url("../ELEMENTS/3.png"), url("../ELEMENTS/4.png");
-	background-position: top 5px left -16px, top 108px left 20px,
-		top -20px left 12px, top -49px left 42px, top -15px left 49px;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	display: block;
-	background-repeat: no-repeat;
-	letter-spacing: -7px;
+.logo_container div {
+	width: 350px;
+	display: flex;
+	justify-content: center;
 }
 
 .logo_foint {
@@ -87,10 +71,10 @@ header {
 	font-size: 70px;
 	font-weight: 900;
 	color: transparent;
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 	align-items: center;
 	color: transparent;
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 }
 
 /* header left side */
@@ -169,6 +153,7 @@ main {
 
 .projects_info {
 	width: 735px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-around;
 	position: absolute;
@@ -198,6 +183,7 @@ main {
 
 .projects_btns_container {
 	float: right;
+	z-index: 1;
 }
 
 .project_categories_btns {
@@ -329,6 +315,8 @@ main {
 .projects_btns {
 	display: flex;
 	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 }
 
 /* ELEMENTS */
@@ -350,7 +338,7 @@ main {
 }
 
 .element_orange_red {
-	width: 50px;
+	width: 75px;
 	height: 275px;
 	background-image: url(../ELEMENTS/2.png);
 	background-repeat: no-repeat;
@@ -388,9 +376,9 @@ main {
 .element_purple {
 	width: 158px;
 	height: 145px;
+	margin-left: -97px;
 	background-image: url(../ELEMENTS/3.png);
 	background-repeat: no-repeat;
 	left: 0;
 	transform: rotate(90deg);
-	margin-left: -97px;
 }

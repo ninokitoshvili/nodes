@@ -3,7 +3,9 @@
 		width: 1200px;
 		justify-content: space-between;
 	}
-
+	.logo_container div {
+		width: 120px;
+	}
 	.bg-text {
 		font-size: 140px;
 	}
